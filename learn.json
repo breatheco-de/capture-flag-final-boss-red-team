@@ -1,0 +1,20 @@
+{
+  "slug": "final-boss-windows-lab",
+  "title": {
+    "es": "FINAL BOSS Red Team - El último desafío corporativo",
+    "en": "FINAL BOSS Red Team - The Final Corporate Challenge"
+  },
+  "preview": "https://github.com/breatheco-de/capture-flag-final-boss-red-team/blob/main/assets/preview.png?raw=true",
+  "solution": {
+    "us":"https://github.com/breatheco-de/capture-flag-final-boss-red-team/blob/solution/SOLUTION.md",
+    "es": "https://github.com/breatheco-de/capture-flag-final-boss-red-team/blob/solution/SOLUTION.es.md"
+    },
+  "technologies": ["cybersecurity", "windows", "red-team","evil-winrm", "web fuzzing","A05:2021 - Security Misconfiguration","A01:2021 - Broken Access Control","A02:2021 - Cryptographic Failures"],
+  "difficulty": "intermediate",
+  "duration": 2,
+  "projectType": "capture-the-flag",
+  "description": {
+    "es": "Analiza un sitio web lleno de pistas falsas, descubre una copia de seguridad expuesta y aprovecha una tarea programada mal configurada para escalar privilegios en un sistema Windows.",
+    "en": "Analyze a web server full of decoys, discover an exposed backup file, and exploit a misconfigured scheduled task to escalate privileges in a Windows system."
+  }
+}
