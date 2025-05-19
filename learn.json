@@ -16,5 +16,13 @@
   "description": {
     "es": "Analiza un sitio web lleno de pistas falsas, descubre una copia de seguridad expuesta y aprovecha una tarea programada mal configurada para escalar privilegios en un sistema Windows.",
     "en": "Analyze a web server full of decoys, discover an exposed backup file, and exploit a misconfigured scheduled task to escalate privileges in a Windows system."
-  }
+  },
+  "delivery": {
+		"instructions": {
+			"us": "Paste the flag you found with format FLAG{hash}",
+			"es": "Agrega la bandera que encontraste con el formato FLAG{hash}"
+		},
+		"formats": ["flags"],
+		"quantity": 1
+	}
 }
